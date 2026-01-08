@@ -28,7 +28,7 @@ function App() {
           <div className={ham ? "col-2 d-flex slideNav" : "d-none"} style={{ background: "#F8F9FA", borderRight: "1px solid #E5E7EB" }}>
             <SideNav setHam={handelHam} />
           </div>
-          <div className={ham ? "col-10 p-0 mainwin overflow-y-scroll" : "col-12 p-0 overflow-y-scroll"}>
+          <div className={ham ? "col-10 p-0 mainwin overflow-y-scroll" : "col-12 p-0 overflow-y-scroll"} >
             <Hero />
             <Skills />
             <Project />

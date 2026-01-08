@@ -15,7 +15,7 @@ function Skills() {
                 <button className="secondaryBtn">MySql</button>
                 <button className="secondaryBtn">Express</button>
                 <button className="secondaryBtn">Bootstrap</button>
-                <button className="secondaryBtn">MERN Stack</button>
+                <button className="secondaryBtn">MERN</button>
             </div>
         </div>
         </div>
