@@ -1,0 +1,40 @@
+.aboutImg {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.aboutImgWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.descriptionBox {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #4b5563;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    /* Gray-700 */
+}
+
+.description {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+}
+
+.abtBtn {
+    width: 8.5rem;
+}
+
+@media (max-width: 650px) {
+    .descriptionBox {
+        flex-wrap: wrap !important;
+        gap: 2rem !important;
+    }
+    .abtBtn {
+        width: 100%;
+    }
+}

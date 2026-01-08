@@ -1,0 +1,11 @@
+.card-container {
+    justify-content: space-around !important;
+    align-content: center;
+    width: 100%;
+    gap: 2rem;
+
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}

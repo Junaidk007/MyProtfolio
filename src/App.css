@@ -1,0 +1,21 @@
+.ham {
+  left: 169px;
+  top: -25px;
+}
+
+.hambtn:hover {
+  transform: translateY(3px) !important;
+}
+
+@media (max-width: 1000px) {
+  .slideNav {
+    position: absolute;
+    min-width: 180px;
+    z-index: 9999;
+    height: 100%;
+  }
+
+  .mainwin {
+    width: 100% !important;
+  }
+}

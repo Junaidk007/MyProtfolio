@@ -1,0 +1,114 @@
+.hero {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.hero .row {
+    width: 100%;
+    margin: 0 !important;
+    align-content: center;
+    align-items: center !important;
+}
+
+.mainHeading {
+    /* font-size: 48px; */
+    font-weight: 600;
+    Color: #111827;
+    font-family: "Poppins", sans-serif;
+}
+
+.tagline {
+    color: #4F46E5;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.hireMe {
+    background: linear-gradient(135deg, #4F46E5, #3B82F6);
+    color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12),
+        0 4px 20px rgba(63, 131, 248, 0.3);
+    transition: 0.25s ease;
+}
+
+.hireMe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16),
+        0 6px 24px rgba(63, 131, 248, 0.35);
+}
+
+.hireMe:active {
+    transform: scale(0.97);
+}
+
+.btn-group {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.heroRight {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.heroImageWrapper {
+    width: 260px;
+    height: 260px;
+    background: #f1f5ff;
+    /* very soft indigo-grey tone */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Actual profile image */
+.heroImage {
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Floating dots for modern effect */
+.floatingDot {
+    position: absolute;
+    background: rgba(99, 102, 241, 0.15);
+    /* Indigo light */
+    border-radius: 50%;
+}
+
+/* Dot positions */
+.dot1 {
+    width: 70px;
+    height: 70px;
+    top: -10px;
+    right: 7px;
+}
+
+.dot2 {
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 218px;
+}
+
+.heroLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
